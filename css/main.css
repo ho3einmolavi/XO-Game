@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+#app {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(36, 16, 211);
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    background:rgb(211, 16, 185)
+}
+
+.game-board {
+    padding: 13px
+}
+
+.game-status {
+    padding: 13px;
+    text-align: center;
+    font-size: 20px;
+    flex-grow: 1;
+    color: rgb(36, 16, 211);
+}
+
+.restart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
